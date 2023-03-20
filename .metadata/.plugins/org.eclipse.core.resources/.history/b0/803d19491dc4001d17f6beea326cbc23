@@ -1,0 +1,15 @@
+package fatec.string;
+
+import java.util.Scanner;
+
+public class ContaVogal {
+	public static void main(String[]args) {
+	
+	 Scanner entradaScanner = new Scanner(System.in);
+		
+	 
+	 
+	 entrada.close();
+	 
+	}
+}

@@ -1,0 +1,48 @@
+.conteudo{
+		
+	-fx-background-color: Black;	
+	-fx-font-family: Roboto;
+	-fx-text-fill: #ffffff;
+}
+
+
+.titulo{
+	
+	-fx-text-fill:#7d9dfb;
+	-fx-font-size:42px;
+}
+
+
+
+.numero{
+	-fx-text-fill: #eee;
+	-fx-font-size: 28px;
+}
+
+
+.botoes{
+	
+	-fx-background-color:#fff;
+	-fx-text-fill: #7d9dfb;
+	-fx-font-size: 28px;
+	-fx-min-width: 60px;
+	-fx-mix-height: 60px;
+	-fx-background-radius: 30px;
+	
+}
+
+.verde{
+	-fx-text-fill:#0ba660;
+	
+	
+}
+
+.vermelho{
+	-fx-text-fill:#ff1c5a;
+}
+
+
+
+
+
+

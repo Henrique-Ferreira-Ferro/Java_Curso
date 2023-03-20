@@ -1,0 +1,37 @@
+package fatec.string;
+
+import java.util.Scanner;
+public class ContaEspacos {
+	public static void main(String[]args) {
+		
+	Scanner entrada = new Scanner(System.in);	
+		
+	int cont = 0;
+	int total;
+	int i =0;
+	
+	System.out.print("Digite uma frase: ");
+	String frase = entrada.nextLine();
+	
+	while(i < frase.length()) {
+		if(frase.indexOf(" ") != 0 ) {
+			
+			cont ++;
+			total = cont - frase.length();
+		}
+		i++;
+	}
+	
+		
+	
+	
+	
+	
+	
+	System.out.println("A frase colocada possui " + cont + " espaços");
+	
+	
+	entrada.close();
+		
+	}
+}

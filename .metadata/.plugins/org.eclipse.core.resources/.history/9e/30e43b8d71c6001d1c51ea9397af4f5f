@@ -1,0 +1,25 @@
+package fatec.string;
+
+
+import java.util.Scanner;
+public class Histograma {
+	public static void main(String[]args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.print("Digite um texto: ");
+	
+		String texto = entrada.nextLine();
+		
+		char[] vogais = {'A','E', 'I', 'O', 'U'};
+		
+		for(int i = 0; i < texto.length(); i++) {
+			
+			
+			
+		}
+		
+		
+		entrada.close();
+	}
+}

@@ -1,0 +1,34 @@
+package fatec.string;
+
+
+import java.util.Scanner;
+
+public class Histograma {
+	public static void main(String[]args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.print("Digite um texto: ");
+	
+		String texto = entrada.nextLine();
+		
+		int contador = 0;
+		
+		char[] vogais = {'A','E', 'I', 'O', 'U'};
+		
+		texto = texto.toUpperCase();
+		
+		for(int i = 0; i < texto.length(); i++) {
+			
+			
+			if(texto.indexOf(vogais[i]) != -1 ) {
+				contador ++;
+			}
+			
+		}
+		
+		System.out.println("o texto possui: " + contador + " vogais");
+		
+		entrada.close();
+	}
+}

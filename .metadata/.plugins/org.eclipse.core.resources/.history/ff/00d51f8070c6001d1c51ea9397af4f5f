@@ -1,0 +1,10 @@
+package fatec.string;
+
+
+import java.util.Scanner;
+public class Histograma {
+	public static void main(String[]args) {
+		
+		
+	}
+}

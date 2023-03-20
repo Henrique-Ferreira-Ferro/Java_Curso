@@ -1,0 +1,37 @@
+package fatec.string;
+
+import java.util.Scanner;
+
+public class ContaVogal {
+	public static void main(String[]args) {
+	
+	 Scanner entrada = new Scanner(System.in);
+		
+	 String nome;
+	 
+	 
+	 int numVogais = 0;
+	 
+	 int i = 0;
+	 
+	 nome = entrada.next().toUpperCase();
+	 
+	 for(i = 0; i < nome.length(); i ++) {
+		 System.out.print("Digite o seu nome: ");
+		
+	 	 
+		 
+		if(nome.equals("A") || nome.equals("E") ||
+				nome.equals("I") || nome.equals("O") || nome.equals("U")) {
+			
+			numVogais = numVogais + 1;
+			
+		}
+}
+	 
+	 System.out.println("O numero de vogais no seu nome é: " + numVogais);
+	 
+	 entrada.close();
+	 
+	}
+}

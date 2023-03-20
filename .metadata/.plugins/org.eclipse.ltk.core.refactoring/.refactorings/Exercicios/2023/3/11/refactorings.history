@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;fatec.string.ContaEspaços&apos; to &apos;ContaEspacos&apos;&#x0D;&#x0A;- Original project: &apos;Exercicios&apos;&#x0D;&#x0A;- Original element: &apos;fatec.string.ContaEspaços&apos;&#x0D;&#x0A;- Renamed element: &apos;fatec.string.ContaEspacos&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ContaEspaços&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;fatec.string{ContaEspaços.java[ContaEspaços" matchStrategy="1" name="ContaEspacos" qualified="false" references="true" similarDeclarations="false" stamp="1679162087912" textual="false" version="1.0"/>
+</session>

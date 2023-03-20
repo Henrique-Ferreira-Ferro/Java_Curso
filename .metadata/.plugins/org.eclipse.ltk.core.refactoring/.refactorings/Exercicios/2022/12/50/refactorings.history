@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;imprimir&apos; in &apos;lambdas.Consumidor.main(...)&apos; to &apos;imprimirNome&apos;&#x0D;&#x0A;- Original project: &apos;Exercicios&apos;&#x0D;&#x0A;- Original element: &apos;lambdas.Consumidor.main(String[]).imprimir&apos;&#x0D;&#x0A;- Renamed element: &apos;imprimir&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;imprimir&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;lambdas{Consumidor.java[Consumidor~main~\[QString;@imprimir!182!247!200!207!QConsumer\&lt;QProduto;&gt;;!0!false" name="imprimirNome" references="true" stamp="1670262498234" version="1.0"/>
+</session>

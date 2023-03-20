@@ -1,0 +1,33 @@
+package fatec.string;
+
+import java.util.Scanner;
+
+public class ContaVogal {
+	public static void main(String[]args) {
+	
+	 Scanner entrada = new Scanner(System.in);
+		
+	 String[] nome;
+	 nome = new String[1];
+	 
+	 char[] vogais = {'A', 'E', 'I', 'O', 'U'};
+	 
+	 int i = 0;
+	 
+	 for(i = 0; i < 1; i ++) {
+		 System.out.print("Digite o seu nome: ");
+		 nome[i] = entrada.next().toUpperCase();
+	 
+		 
+		 
+		 if(nome[i].equals(vogais)) {
+			 System.out.println("O seu nome possui: " +  );
+		 }
+		 
+	 }
+	 
+	 
+	 entrada.close();
+	 
+	}
+}

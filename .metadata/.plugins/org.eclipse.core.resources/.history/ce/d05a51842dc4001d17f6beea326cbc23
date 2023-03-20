@@ -1,0 +1,26 @@
+package fatec.string;
+
+
+import java.util.Scanner;
+public class SubstituiA {
+	public static void main(String[]args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.print("Digite algo: ");
+		
+		String algo = entrada.next().toUpperCase();
+		
+		for(int i = 0; i < algo.length(); i++ ) {
+			char letraA = algo.charAt(i);
+		
+			if(letraA == 'A') {
+				System.out.println(algo.replace("A","*"));
+			}
+		
+		}
+		
+		
+		entrada.close();
+	}
+}

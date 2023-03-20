@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;boxConteudoPrincipal&apos; in &apos;basico.Contador.start(...)&apos; to &apos;boxConteudo&apos;&#x0D;&#x0A;- Original project: &apos;exercicios-javaFx&apos;&#x0D;&#x0A;- Original element: &apos;basico.Contador.start(Stage).boxConteudoPrincipal&apos;&#x0D;&#x0A;- Renamed element: &apos;boxConteudoPrincipal&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;boxConteudoPrincipal&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;basico{Contador.java[Contador~start~QStage;@boxConteudoPrincipal!1076!1114!1081!1100!QVBox;!0!false" name="boxConteudo" references="true" stamp="1677427078761" version="1.0"/>
+</session>

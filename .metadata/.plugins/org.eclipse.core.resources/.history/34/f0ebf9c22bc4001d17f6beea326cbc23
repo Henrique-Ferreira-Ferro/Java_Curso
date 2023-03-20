@@ -1,0 +1,18 @@
+package fatec.string;
+
+
+import java.util.Scanner;
+public class SubstituiA {
+	public static void main(String[]args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.prin("Digite algo: ");
+		
+		String algo = entrada.next();
+		
+		
+		
+		entrada.close();
+	}
+}

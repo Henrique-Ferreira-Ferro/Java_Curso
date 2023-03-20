@@ -1,0 +1,12 @@
+package br.com.example.exerciciossb.controllers;
+
+public class PrimeiroController {
+
+	@RestController
+	public class PrimeiroController {
+
+		@GetMapping(path = { "/ola", "/saudacao" })
+		public String ola() {
+			return "Olá Spring Boot!";
+		}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;exercicios-javaFx/src/fxml/test.fxml&apos; to &apos;Login.fxml&apos;" description="Rename resource &apos;test.fxml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/fxml/test.fxml" name="Login.fxml" stamp="1677703901974" updateReferences="true"/>
+</session>
